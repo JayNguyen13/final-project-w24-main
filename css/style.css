@@ -1,0 +1,157 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+  .Company-Logo{
+    width: 140px;
+  }
+  footer {
+    
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    
+
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav img {
+    max-width: 150px;
+  }
+  nav ul li{
+    list-style: none;
+    margin: 10px 15px;
+    display: inline-block;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500; 
+  }
+
+  h1 {
+    font-size: 2.027rem;
+  }
+  
+  h2 {
+    font-size: 1.802rem;
+  }
+  
+  h3 {
+    font-size: 1.266rem;
+  }
+  button{
+    color: #f8fafc;
+  background-color: #222;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+.product{
+    
+    display: grid;
+    float: left;
+    margin-right: 15px;
+  grid-template-columns: repeat(2, 350px);
+gap: 0.5rem
+
+  }
+  
+.wrapper {
+    margin: auto;
+    width: 50%;
+
+}
+.container{
+    
+    height: 300px;
+    background-color: #f8fafc;
+margin-top: 250px;
+}
+.container h1{
+    text-align: center;
+
+}
+.paragraph{
+    text-align: center;
+    display: grid;
+    margin-left: 250px;
+  grid-template-columns: repeat(2, 550px);
+gap: 3rem
+    
+}
+.contain{
+    
+    height: 300px;
+    background-color: #000;
+
+color: #fff;
+}
+.contain h1{
+    text-align: center;
+
+}
+.texts {
+    text-align: center;
+    display: grid;
+    margin-left: 350px;
+  grid-template-columns: repeat(3, 350px);
+gap: 3rem
+
+}
+.header{
+    
+    height: 50px;
+}
+
+.header h2{
+    text-align: center;
+}
+
+    
+  
+  .pic {
+    display: grid;
+    
+ grid-template-columns: repeat(4, 350px);
+gap: 0.5rem
+  }
+  .pic{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .price {
+    
+    text-align: center;
+
+    display: grid;
+    margin-left: 100px;
+ grid-template-columns: repeat(4, 350px);
+gap: 0.5rem
+
+  }
+  
+
+  .box{
+    background-color: #f8fafc;
+  }
+  
+
+  .name {
+    margin-left: 250px;
+    display: grid;
+ grid-template-columns: repeat(4, 350px);
+gap: 0.5rem
+
+  }
+  
